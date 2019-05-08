@@ -10,7 +10,7 @@ array_value=name_hash.collect do |name , value|
   value
 end
 min_value = array_value.sort[0]
-min_name = ""
+
 name_hash.each do |name, value|
  if  name_hash[name]==min_value
    return name
